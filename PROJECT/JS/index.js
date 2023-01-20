@@ -123,6 +123,7 @@ tweetQuote = () => {
     window.open(twitterUrl, '_blank');
 }
 
+
 // Events
 newQuoteButton.addEventListener('click', newQuote);
 twitter.addEventListener('click', tweetQuote);

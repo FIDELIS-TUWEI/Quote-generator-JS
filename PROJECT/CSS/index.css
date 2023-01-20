@@ -35,10 +35,6 @@ body {
     font-size: 2rem;
 }
 
-.fa-quote-left {
-    font-size: 4rem;
-}
-
 .quote__author {
     margin-top: 15px;
     font-size: 2rem;
@@ -82,10 +78,12 @@ button:active {
     cursor: pointer;
 }
 
+.twitter__button:hover {
+    transform: scale(1.03);
+}
+
 .twitter__button:active {
-    transform: translate(0, 0.3rem);
-    box-shadow: 0 0.3rem rgba(0, 0, 0, 0.65);
-    
+    transform: translate(0, 0.3rem);    
 }
 
 .loader {
