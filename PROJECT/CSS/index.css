@@ -14,7 +14,6 @@ body {
     background: url(/PROJECT/image/pexels.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
-    color: #000;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
 }
@@ -52,7 +51,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-
 
 img {
     width: 5%;
