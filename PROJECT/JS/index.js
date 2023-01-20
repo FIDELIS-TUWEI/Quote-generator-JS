@@ -38,11 +38,6 @@ twitterBtn.setAttribute('id', 'twitter');
 twitterBtn.setAttribute('title', 'Tweet This!');
 buttonContainer.appendChild(twitterBtn);
 
-// Twitter Icon
-const twitterIcon = document.createElement('i');
-twitterIcon.setAttribute('class', '<i class="fa-brands fa-twitter"></i>');
-twitterBtn.appendChild(twitterIcon);
-
 // New Quote Button
 const newQuoteBtn = document.createElement('button');
 newQuoteBtn.setAttribute('id', 'new__quote');
